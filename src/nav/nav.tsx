@@ -4,8 +4,8 @@ export const Navi=()=>{
     return (
         <div>
             <div>My skills</div>
-            <div>my works</div>
-            <div>contact me</div>
+            <div>My works</div>
+            <div>Contact me</div>
             <div></div>
         </div>
     )
