@@ -1,12 +1,14 @@
 import React from "react";
+import style from './Nav.module.css'
 
 export const Navi=()=>{
     return (
-        <div>
-            <div>My skills</div>
-            <div>My works</div>
-            <div>Contact me</div>
-            <div></div>
+        <div className={style.nav}>
+            <a href={''}>Main</a>
+            <a href={''}>My skills</a>
+            <a href={''}>My projects</a>
+            <a href={''}>Contact me</a>
+
         </div>
     )
 

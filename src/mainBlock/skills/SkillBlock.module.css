@@ -1,0 +1,23 @@
+.skillsMain{
+    height: 100vh;
+    background-color: aqua;
+}
+
+.skillContainer{
+flex-direction: column;
+    align-items: center;
+    /*justify-content: flex-start;*/
+
+}
+
+.title{
+    background-color: coral;
+
+
+}
+.skillsPart{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 100%;
+ }
