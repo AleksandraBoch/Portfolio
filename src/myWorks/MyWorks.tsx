@@ -5,15 +5,16 @@ import {Works} from "./Works/works";
 
 export const MyWorks=()=>{
     return(
-        <div className={style.works}>
-            <div className={styleContainer.container}>
-                <div>
-                    <h2>My works</h2>
+        <div className={style.worksMain}>
+            <div className={`${styleContainer.container} ${style.workContainer}`}>
+                    <h2 className={style.title}>My works</h2>
                     <div className={style.workPart}>
+                        <Works title={'TodoList'} description={'App witch can help you to plan everything'}/>
                         <Works title={'Some Name'} description={'description '}/>
-
+                        <Works title={'Some Name'} description={'description '}/>
+                        <Works title={'Some Name'} description={'description '}/>
+                        <Works title={'Some Name'} description={'description '}/>
                     </div>
-                </div>
 
             </div>
 

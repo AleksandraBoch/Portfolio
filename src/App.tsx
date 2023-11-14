@@ -9,18 +9,18 @@ import {MyWorks} from "./myWorks/MyWorks";
 import {Contacts} from "./Contacts/Contacts";
 
 function App() {
-  return (
-    <div>
-      <header >
-        <Header/>
-<MainBlock/>
-<SkillsBlock/>
-          <MyWorks/>
-          <Contacts/>
-          <Footer/>
-      </header>
-    </div>
-  );
+    return (
+        <div className={'main'}>
+            <header>
+                <Header/>
+                <MainBlock/>
+                <SkillsBlock/>
+                <MyWorks/>
+                <Contacts/>
+                <Footer/>
+            </header>
+        </div>
+    );
 }
 
 export default App;

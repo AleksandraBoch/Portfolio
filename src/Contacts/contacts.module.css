@@ -1,0 +1,30 @@
+.contactsBlock {
+    height: 250px;
+
+}
+
+.contactsContainer {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.title {
+    font-family: 'Poppins', sans-serif ;
+}
+form {
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+textarea {
+    height: 50%;
+}
+.showBtn {
+    width: 100px;
+    height: 40px;
+    background-color: #757575;
+}

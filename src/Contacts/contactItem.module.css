@@ -1,0 +1,14 @@
+.icon{
+
+}
+.contact{
+    font-family: 'Poppins', sans-serif ;
+}
+.ContactItem{
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+}

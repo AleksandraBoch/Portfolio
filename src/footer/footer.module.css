@@ -1,0 +1,18 @@
+.footerBlock {
+
+    background-color: #d4ffc0;
+}
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.picsContainer {
+    display: flex;
+    gap: 5px;
+}
+.pic {
+    width: 50px;
+    height: 50px;
+    background-color: #757575;
+}

@@ -1,7 +1,18 @@
-.works{
-
+.worksMain{
+    /*height: 100vh;*/
+    font-family: 'Poppins', sans-serif ;
 }
-
+.workContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 .workPart{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 100%;
+    gap: 10px;
+    display: flex;
 
 }
