@@ -10,7 +10,7 @@ export const MyWorks=()=>{
                     <h2 className={style.title}>My works</h2>
                     <div className={style.workPart}>
                         <Works title={'TodoList'} description={'App witch can help you to plan everything'}/>
-                        <Works title={'Some Name'} description={'description '}/>
+                        <Works title={'Skills Portfolio'} description={'Here you can see what can I  do=)'}/>
                         <Works title={'Some Name'} description={'description '}/>
                         <Works title={'Some Name'} description={'description '}/>
                         <Works title={'Some Name'} description={'description '}/>

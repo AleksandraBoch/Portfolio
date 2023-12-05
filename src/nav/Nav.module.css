@@ -15,3 +15,44 @@
 a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+.nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    background-image: linear-gradient(
+            to left,
+            #89A599,
+            #89A599 50%,
+            #21362F 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a :before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav :hover::before {
+    width:100%;
+}
+.nav a:hover {
+    background-position: 0;
+}
+
+.nav a.active {
+    color: black;
+}

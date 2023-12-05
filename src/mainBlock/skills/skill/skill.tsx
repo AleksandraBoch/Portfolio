@@ -3,7 +3,7 @@ import style from './Skill.module.css'
 
 type PropsType = {
     title: string,
-    description: string
+    description?: string
     icon?: any
 }
 

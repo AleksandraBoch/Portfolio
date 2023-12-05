@@ -1,6 +1,7 @@
 import React from "react";
 import style from './Main.module.css'
 import styleContainer from '../styles/container.module.css'
+import ph from '../img/photo.jpg'
 
 
 export const MainBlock=()=>{
@@ -8,7 +9,7 @@ export const MainBlock=()=>{
         <div className={style.main}>
             <div className={styleContainer.container}>
             <div className={style.greeting}>
-                <h1>Hello!</h1>
+                <h1 className={style.text}>Hello!</h1>
                 <div>
                     My name is Alex and I`m frontend developer
                 </div>
@@ -18,7 +19,9 @@ export const MainBlock=()=>{
                 </p>
 
             </div>
-            <div className={style.photo}></div>
+            <div className={style.photo}>
+                <img src={ph}/>
+            </div>
             </div>
         </div>
     )
