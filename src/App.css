@@ -1,18 +1,16 @@
 * {
     width: 100%;
     /*height: 100%;*/
-
-
 }
 
-.main {
+.App_main {
     height: 100%;
-
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     /*background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.1), rgba(255, 255, 255, 1)),*/
     /*url("./img/background.jpg");*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 /*.main::before {*/
@@ -31,3 +29,4 @@
     font-style: normal;
     font-weight: normal;
 }
+

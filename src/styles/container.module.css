@@ -8,4 +8,9 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Poppins', sans-serif ;
+    animation: 5s show ease;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

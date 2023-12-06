@@ -10,7 +10,7 @@ import {Contacts} from "./Contacts/Contacts";
 
 function App() {
     return (
-        <div className={'main'}>
+        <div className={'App_main'}>
             <header>
                 <Header/>
                 <MainBlock/>

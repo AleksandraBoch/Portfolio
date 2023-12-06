@@ -13,6 +13,7 @@ export const SkillsBlock = () => {
             <div className={`${styleContainer.container} ${style.skillContainer}`}>
 
                 <h2 className={style.title}>Мои навыки</h2>
+                <div className={style.description_}>Ocновные технологии с которыми я работаю</div>
                 <h2>Языки програмирования</h2>
                 <div className={style.skillsPart}>
                     <Skill title={'HTML'} icon={html_icon}/>
