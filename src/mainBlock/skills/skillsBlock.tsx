@@ -9,6 +9,7 @@ import ts_icon from '../../img/icons8-typescript-28.png'
 
 
 export const SkillsBlock = () => {
+
     return (
         <div className={style.skillsMain}>
 
