@@ -11,7 +11,7 @@ export const Contacts=()=>{
         <div className={style.contactsBlock}>
 
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h2 className={style.title}>Contact me</h2>
+                <div className={style.title}>Contact me</div>
                 <div className={style.contactBlock}>
                 <ContactItem contact={'My GitHub'} icon={gh}/>
                 <ContactItem contact={'@ShemaFoxy'} icon={telegram}/>

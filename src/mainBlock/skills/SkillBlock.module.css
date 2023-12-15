@@ -1,33 +1,39 @@
 .skillsMain {
-    height: 100%;
+    height: 900px;
 }
 
 .skillContainer {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
 }
 
 .title {
+
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     color: #3560A5;
 }
 
-.description_{
+.description_ {
     color: hsl(0, 0%, 68%);
 }
 
 .skillsPart {
+    max-width: 1200px;
+    margin-top: 15px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
     /*border: 1px solid;*/
     width: 100%;
-
     gap: 10px;
 }
-h2{
+
+.skillsModule {
+    height: 200px;
+}
+
+h2 {
     color: #3560A5;
 }

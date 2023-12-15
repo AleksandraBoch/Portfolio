@@ -10,7 +10,11 @@
     flex-wrap: nowrap;
 }
 .title {
-    font-family: 'Poppins', sans-serif ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #3560A5;
+    justify-content: space-evenly;
+    display: flex;
 }
 form {
     width: 50%;
@@ -27,4 +31,10 @@ textarea {
     width: 100px;
     height: 40px;
     background-color: #757575;
+}
+
+.contactBlock{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
 }

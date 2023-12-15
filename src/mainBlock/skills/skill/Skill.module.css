@@ -1,11 +1,14 @@
 .skill {
+    margin-top: 10px;
     width: 250px;
-    height: 100px;
+    height: 150px;
+    background-image: linear-gradient(#3560A5, #54b3d6);
     background-color: #54b3d6;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-radius: 25px;
 }
 
 .icon {
@@ -15,5 +18,6 @@
 }
 
 .description {
-
+    margin-top: 25px;
+    font-size: 16px;
 }

@@ -2,15 +2,26 @@
 
     background-color: #d4ffc0;
 }
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #3560A5;
+    justify-content: space-evenly;
+    display: flex;
+}
+
 .footerContainer {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
+
 .picsContainer {
     display: flex;
     gap: 5px;
 }
+
 .pic {
     width: 50px;
     height: 50px;

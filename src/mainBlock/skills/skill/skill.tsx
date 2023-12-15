@@ -1,23 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
 import style from './Skill.module.css'
 
-type PropsType = {
+export type PropsType = {
     title: string,
     description?: string
     icon?: any
 }
 
 export const Skill = (props: PropsType) => {
+    const [hovered, setHovered] = useState(false);
     return (
-        <div className={style.skill}>
-
+        <div className={style.skill}
+             onMouseEnter={() => setHovered(true)}
+             onMouseLeave={() => setHovered(false)}>
             <div className={style.icon}>
                 <img src={props.icon}/>
             </div>
-            <h3> {props.title}</h3>
-            <span className={style.description}>
-                    {props.description}
-                </span>
+            {!hovered && <h3> {props.title}</h3>}
+            {hovered && <div className={style.description}>{props.description}</div>}
 
         </div>
     )
