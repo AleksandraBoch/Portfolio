@@ -11,5 +11,4 @@ export const Navi = () => {
             <Link to="/contacts">Contact me</Link>
         </div>
     )
-
 }
